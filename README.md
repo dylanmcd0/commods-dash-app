@@ -44,16 +44,14 @@ CTRL + C
 ## 📁 Goal Project Structure
 ```
 commods-dash-app/
-│── data/                  # Raw & processed datasets
-│── models/                # ML models for price prediction
+│── data/                  # Raw & processed datasets (maybe a db)
+│── models/                # ML models for price prediction (maybe a scheduler / db)
 │── notebooks/             # Jupyter notebooks for research
 │── src/                   # Dash app source code
 │   ├── app.py             # Main entry point
 │   ├── layout.py          # Layout components
 │   ├── callbacks.py       # Callback logic
 │   ├── tabs/              # Modular tab structure
-│── static/                # CSS & UI assets
-│── tests/                 # Unit tests
 │── requirements.txt       # Dependencies
 │── README.md              # Documentation
 ```
