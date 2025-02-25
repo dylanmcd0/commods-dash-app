@@ -3,12 +3,12 @@
 ## 📌 Project Overview
 A bit of a random project designed to track and analyze **oil & gas markets**.
 
-### **🔹 Features (maybe)**
-- 📈 **Price Forecasting** using machine learning (e.g., ARIMA, XGBoost, LSTM)
+### **🔹 Features (maybe one day)**
+- 📈 **Price Forecasting** using ML (ARIMA, LSTM, etc.)
 - 📊 **Fundamental Analysis** of oil inventories, macroeconomic indicators, and supply-demand factors
 - 📉 **Technical Analysis** with interactive charts (RSI, MACD, Bollinger Bands)
 - 📰 **News & Sentiment Analysis** via web scraping and NLP
-- 📡 **Live Data Integration** from Yahoo Finance, EIA, and FRED
+- 📡 **Live (free) Data Integration** from Yahoo Finance, EIA, and FRED
 
 ---
 ## If Anyone Cares to Run Locally
@@ -18,22 +18,22 @@ git clone https://github.com/yourusername/commods-dash-app.git
 cd commods-dash-app
 ```
 
-### 2️ Set Up a Virtual Environment
+### 2Set Up a Virtual Environment
 ```bash
 python -m venv venv
 source venv/bin/activate
 ```
 
-### 3️ Install Dependencies
+### Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️ Run the Dash App
+### Run the Dash App
 ```bash
 python src/app.py
 ```
-📍 The app will be accessible at: **http://127.0.0.1:8050/**
+The app will be accessible at: **http://127.0.0.1:8050/**
 
 To stop the running app, press:
 ```
@@ -41,7 +41,7 @@ CTRL + C
 ```
 
 ---
-## 📁 Project Structure
+## 📁 Goal Project Structure
 ```
 commods-dash-app/
 │── data/                  # Raw & processed datasets
@@ -60,7 +60,7 @@ commods-dash-app/
 
 ---
 ## 🌍 Deployment
-This app will eventually get deployed using **Heroku, AWS, or Google Cloud**. Deployment instructions will be added soon (haven't done this yet).
+The idea is to eventually get this app deployed using **Heroku, AWS, or Google Cloud** (whatever is cheapest). Deployment information will be added whenever that happens.
 
 ---
 ## 👤 Author
