@@ -35,12 +35,7 @@ pip install -r requirements.txt
 ```bash
 python src/app.py
 ```
-The app will be accessible at: **http://127.0.0.1:8050/**
-
-To stop the running app, press:
-```
-CTRL + C
-```
+The app will then be accessible at: **http://127.0.0.1:8050/**
 
 ---
 ## 📁 Goal Project Structure
