@@ -1,7 +1,9 @@
 # Commodity Analysis Dashboard
 
 ## 📌 Project Overview
-A bit of a random project designed to track and analyze **oil & gas markets**.
+A random project for me to get better at tracking, analyzing, and understanding **oil & gas markets**.
+
+As well as (hopefully at some point) how to convert data into insights, and insights into positions.
 
 ### **🔹 Features (maybe one day)**
 - 📈 **Price Forecasting** using ML (ARIMA, LSTM, etc.)
@@ -18,7 +20,7 @@ git clone https://github.com/yourusername/commods-dash-app.git
 cd commods-dash-app
 ```
 
-### 2Set Up a Virtual Environment
+### Set Up a Virtual Environment
 ```bash
 python -m venv venv
 source venv/bin/activate
