@@ -38,7 +38,8 @@ python src/app.py
 The app will then be accessible at: **http://127.0.0.1:8050/**
 
 ---
-## 📁 Goal Project Structure
+## 📁 Ideal Project Structure
+We will see if this structure is maintained over time
 ```
 commods-dash-app/
 │── data/                  # Raw & processed datasets (maybe a db)
@@ -67,6 +68,7 @@ The idea is to eventually get this app deployed using **Heroku, AWS, or Google C
 ## 🛠️ To-Do List
 ✅ Basic Dash app setup  
 🔜 Implement machine learning models for price forecasting  
+🔜 Some C++ model work in order to learn  
 🔜 Integrate real-time data sources  
 🔜 Deploy the application  
 
